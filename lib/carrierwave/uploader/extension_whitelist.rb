@@ -36,7 +36,7 @@ module CarrierWave
       def extension_white_list; end
 
       def extension_white_list_error
-        I18n.translate(:"errors.messages.extension_white_list_error"
+        I18n.translate(:"errors.messages.extension_white_list_error")
       end
 
       def allowed_types_message
